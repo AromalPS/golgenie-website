@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golgenie | Blossoming roots</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar Section -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="assets/img/logo-horizontal.png" alt="Logo" width="150"> <!-- Replace with your logo -->
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Explore</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Daily Challenge</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-danger" href="#">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Header Section -->
+<section class="header py-5">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-md-4">
+                <h2>Book your Slot</h2>
+                <h1>FOR <span>PROJECT</span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                <div class="form-group mt-4">
+                    <select class="form-control custom-select">
+                        <option>Select</option>
+                        <option>Quiz</option>
+                        <!-- Add more options here -->
+                    </select>
+                </div>
+                <button class="btn orange-btn mt-3">Book Now</button>
+            </div>
+            <div class="col-md-6">
+                <img src="assets/img/banner-img.svg" class="img-fluid" alt="Project Illustration">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-------------------------------------------------- Feature Section ----------------------------------------------------------------->
+
+<!-- Video Section with Modal -->
+<section class="container feature py-5 text-center">
+    <!-- Background Elements -->
+    <img src="assets/img/bg-feature.svg" class="background-element dots" alt="Dots Background">
+    <img src="assets/img/bg-feature2.svg" class="background-element wavy-lines" alt="Wavy Lines Background">
+
+    <!-- Heading Section -->
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h3>Lorem</h3>
+            <h2><strong>IPSUM</strong></h2>
+        </div>
+    </div>
+
+    <!-- Image/Video Section with Play Button -->
+    <div class="row justify-content-center mt-4">
+        <div class="col-12 col-md-8">
+            <div class="video-section position-relative">
+                <!-- Thumbnail Image -->
+                <img src="assets/img/person.jpeg" class="img-fluid rounded shadow-lg" alt="Video Thumbnail">
+                <!-- Play Button Trigger for Modal -->
+                <div class="video-overlay" data-toggle="modal" data-target="#videoModal">
+                    <i class="fas fa-play"></i>
+                </div>
+                <div class="video-text-overlay">
+                    <p class="text-white">From its medieval origins to the digital era, learn everything</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Paragraph Section -->
+    <div class="row justify-content-center mt-4">
+        <div class="col-12 col-md-8">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+    </div>
+
+    <!-- Call to Action Button -->
+    <div class="row justify-content-center mt-2">
+        <div class="col-12 col-md-8">
+            <button class="btn orange-btn">Book Free Classes</button>
+        </div>
+    </div>
+</section>
+
+<!-- Modal for Video -->
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <!-- Embedded YouTube Video -->
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/your-video-id" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!---------------------------------------------------- What We Offer Section -------------------------------------------------------->
+
+<div class="container offer-section">
+    <div class="row">
+      <!-- Text Column: Vertically centered content -->
+      <div class="col-md-4 d-flex align-items-center justify-content-center d-flex-center">
+        <div>
+          <h3>What we</h3>
+          <h1>OFFER</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="dots-offer">
+            <svg width="83" height="152" viewBox="0 0 83 152" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g style="mix-blend-mode:multiply" opacity="0.1">
+                <path d="M76.4666 9.40511C79.0613 9.40511 81.1648 7.30039 81.1648 4.70408C81.1648 2.10777 79.0613 0.00305176 76.4666 0.00305176C73.8719 0.00305176 71.7685 2.10777 71.7685 4.70408C71.7685 7.30039 73.8719 9.40511 76.4666 9.40511Z" fill="#0A033C"/>
+                <path d="M52.8538 9.40206C55.4485 9.40206 57.5519 7.29734 57.5519 4.70103C57.5519 2.10472 55.4485 0 52.8538 0C50.2591 0 48.1557 2.10472 48.1557 4.70103C48.1557 7.29734 50.2591 9.40206 52.8538 9.40206Z" fill="#0A033C"/>
+                <path d="M28.6229 9.40511C31.2176 9.40511 33.3211 7.30039 33.3211 4.70408C33.3211 2.10777 31.2176 0.00305176 28.6229 0.00305176C26.0283 0.00305176 23.9248 2.10777 23.9248 4.70408C23.9248 7.30039 26.0283 9.40511 28.6229 9.40511Z" fill="#0A033C"/>
+                <path d="M4.70422 9.4082C7.29891 9.4082 9.40233 7.30347 9.40233 4.70716C9.40233 2.11086 7.29891 0.00613403 4.70422 0.00613403C2.10952 0.00613403 0.00610352 2.11086 0.00610352 4.70716C0.00610352 7.30347 2.10952 9.4082 4.70422 9.4082Z" fill="#0A033C"/>
+                <path d="M76.4666 33.0266C79.0613 33.0266 81.1648 30.9219 81.1648 28.3256C81.1648 25.7293 79.0613 23.6246 76.4666 23.6246C73.8719 23.6246 71.7685 25.7293 71.7685 28.3256C71.7685 30.9219 73.8719 33.0266 76.4666 33.0266Z" fill="#0A033C"/>
+                <path d="M76.4666 56.6496C79.0613 56.6496 81.1648 54.5449 81.1648 51.9486C81.1648 49.3523 79.0613 47.2476 76.4666 47.2476C73.8719 47.2476 71.7685 49.3523 71.7685 51.9486C71.7685 54.5449 73.8719 56.6496 76.4666 56.6496Z" fill="#0A033C"/>
+                <path d="M76.4666 80.2726C79.0613 80.2726 81.1648 78.1679 81.1648 75.5716C81.1648 72.9753 79.0613 70.8705 76.4666 70.8705C73.8719 70.8705 71.7685 72.9753 71.7685 75.5716C71.7685 78.1679 73.8719 80.2726 76.4666 80.2726Z" fill="#0A033C"/>
+                <path d="M76.4728 103.894C79.0675 103.894 81.1709 101.789 81.1709 99.193C81.1709 96.5967 79.0675 94.4919 76.4728 94.4919C73.8781 94.4919 71.7747 96.5967 71.7747 99.193C71.7747 101.789 73.8781 103.894 76.4728 103.894Z" fill="#0A033C"/>
+                <path d="M77.0968 127.515C79.6915 127.515 81.7949 125.411 81.7949 122.814C81.7949 120.218 79.6915 118.113 77.0968 118.113C74.5021 118.113 72.3987 120.218 72.3987 122.814C72.3987 125.411 74.5021 127.515 77.0968 127.515Z" fill="#0A033C"/>
+                <path d="M52.2299 151.135C54.8245 151.135 56.928 149.031 56.928 146.434C56.928 143.838 54.8245 141.733 52.2299 141.733C49.6352 141.733 47.5317 143.838 47.5317 146.434C47.5317 149.031 49.6352 151.135 52.2299 151.135Z" fill="#0A033C"/>
+                <path d="M77.0968 151.138C79.6915 151.138 81.7949 149.034 81.7949 146.437C81.7949 143.841 79.6915 141.736 77.0968 141.736C74.5021 141.736 72.3987 143.841 72.3987 146.437C72.3987 149.034 74.5021 151.138 77.0968 151.138Z" fill="#0A033C"/>
+                <path d="M52.8538 33.0235C55.4485 33.0235 57.5519 30.9188 57.5519 28.3225C57.5519 25.7262 55.4485 23.6214 52.8538 23.6214C50.2591 23.6214 48.1557 25.7262 48.1557 28.3225C48.1557 30.9188 50.2591 33.0235 52.8538 33.0235Z" fill="#0A033C"/>
+                <path d="M52.8538 56.6465C55.4485 56.6465 57.5519 54.5418 57.5519 51.9455C57.5519 49.3492 55.4485 47.2444 52.8538 47.2444C50.2591 47.2444 48.1557 49.3492 48.1557 51.9455C48.1557 54.5418 50.2591 56.6465 52.8538 56.6465Z" fill="#0A033C"/>
+                <path d="M52.8599 80.2695C55.4546 80.2695 57.558 78.1648 57.558 75.5685C57.558 72.9722 55.4546 70.8674 52.8599 70.8674C50.2652 70.8674 48.1618 72.9722 48.1618 75.5685C48.1618 78.1648 50.2652 80.2695 52.8599 80.2695Z" fill="#0A033C"/>
+                <path d="M52.8538 103.891C55.4485 103.891 57.5519 101.786 57.5519 99.1899C57.5519 96.5936 55.4485 94.4888 52.8538 94.4888C50.2591 94.4888 48.1557 96.5936 48.1557 99.1899C48.1557 101.786 50.2591 103.891 52.8538 103.891Z" fill="#0A033C"/>
+                <path d="M52.2299 127.512C54.8245 127.512 56.928 125.408 56.928 122.811C56.928 120.215 54.8245 118.11 52.2299 118.11C49.6352 118.11 47.5317 120.215 47.5317 122.811C47.5317 125.408 49.6352 127.512 52.2299 127.512Z" fill="#0A033C"/>
+                <path d="M28.311 151.138C30.9057 151.138 33.0091 149.034 33.0091 146.437C33.0091 143.841 30.9057 141.736 28.311 141.736C25.7163 141.736 23.6129 143.841 23.6129 146.437C23.6129 149.034 25.7163 151.138 28.311 151.138Z" fill="#0A033C"/>
+                <path d="M28.6229 33.0266C31.2176 33.0266 33.3211 30.9219 33.3211 28.3256C33.3211 25.7293 31.2176 23.6246 28.6229 23.6246C26.0283 23.6246 23.9248 25.7293 23.9248 28.3256C23.9248 30.9219 26.0283 33.0266 28.6229 33.0266Z" fill="#0A033C"/>
+                <path d="M28.6229 56.6496C31.2176 56.6496 33.3211 54.5449 33.3211 51.9486C33.3211 49.3523 31.2176 47.2476 28.6229 47.2476C26.0283 47.2476 23.9248 49.3523 23.9248 51.9486C23.9248 54.5449 26.0283 56.6496 28.6229 56.6496Z" fill="#0A033C"/>
+                <path d="M28.6229 80.2726C31.2176 80.2726 33.3211 78.1679 33.3211 75.5716C33.3211 72.9753 31.2176 70.8705 28.6229 70.8705C26.0283 70.8705 23.9248 72.9753 23.9248 75.5716C23.9248 78.1679 26.0283 80.2726 28.6229 80.2726Z" fill="#0A033C"/>
+                <path d="M28.6229 103.894C31.2176 103.894 33.3211 101.789 33.3211 99.193C33.3211 96.5967 31.2176 94.4919 28.6229 94.4919C26.0283 94.4919 23.9248 96.5967 23.9248 99.193C23.9248 101.789 26.0283 103.894 28.6229 103.894Z" fill="#0A033C"/>
+                <path d="M28.311 127.515C30.9057 127.515 33.0091 125.411 33.0091 122.814C33.0091 120.218 30.9057 118.113 28.311 118.113C25.7163 118.113 23.6129 120.218 23.6129 122.814C23.6129 125.411 25.7163 127.515 28.311 127.515Z" fill="#0A033C"/>
+                <path d="M4.69811 151.141C7.29281 151.141 9.39623 149.037 9.39623 146.44C9.39623 143.844 7.29281 141.739 4.69811 141.739C2.10342 141.739 0 143.844 0 146.44C0 149.037 2.10342 151.141 4.69811 151.141Z" fill="#0A033C"/>
+                <path d="M4.69811 33.0296C7.29281 33.0296 9.39623 30.9249 9.39623 28.3286C9.39623 25.7323 7.29281 23.6275 4.69811 23.6275C2.10342 23.6275 0 25.7323 0 28.3286C0 30.9249 2.10342 33.0296 4.69811 33.0296Z" fill="#0A033C"/>
+                <path d="M4.69811 56.6526C7.29281 56.6526 9.39623 54.5479 9.39623 51.9516C9.39623 49.3553 7.29281 47.2505 4.69811 47.2505C2.10342 47.2505 0 49.3553 0 51.9516C0 54.5479 2.10342 56.6526 4.69811 56.6526Z" fill="#0A033C"/>
+                <path d="M4.69811 80.2756C7.29281 80.2756 9.39623 78.1709 9.39623 75.5746C9.39623 72.9783 7.29281 70.8735 4.69811 70.8735C2.10342 70.8735 0 72.9783 0 75.5746C0 78.1709 2.10342 80.2756 4.69811 80.2756Z" fill="#0A033C"/>
+                <path d="M4.69811 103.897C7.29281 103.897 9.39623 101.792 9.39623 99.196C9.39623 96.5997 7.29281 94.4949 4.69811 94.4949C2.10342 94.4949 0 96.5997 0 99.196C0 101.792 2.10342 103.897 4.69811 103.897Z" fill="#0A033C"/>
+                <path d="M4.69811 127.519C7.29281 127.519 9.39623 125.414 9.39623 122.818C9.39623 120.221 7.29281 118.117 4.69811 118.117C2.10342 118.117 0 120.221 0 122.818C0 125.414 2.10342 127.519 4.69811 127.519Z" fill="#0A033C"/>
+                </g>
+                </svg>
+                
+        </div>
+      </div>
+
+      <!-- Card Section: Images aligned bottom right -->
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-12 col-md-6 mb-3">
+            <div class="offer-card">
+              <span class="arrow-icon"><svg width="35" height="35" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.925 9.18335C9.975 9.18335 9.34167 9.81668 9.34167 10.7667C9.34167 11.7167 9.975 12.35 10.925 12.35V9.18335ZM27.7083 29.2917C27.7083 30.2417 28.3417 30.875 29.2917 30.875C30.2417 30.875 30.875 30.2417 30.875 29.2917H27.7083ZM27.55 9.18335H10.925V12.35H27.55V9.18335ZM30.875 12.6667C30.875 10.7667 29.2917 9.18335 27.3917 9.18335V12.35C27.55 12.35 27.7083 12.5083 27.7083 12.6667H30.875ZM30.875 29.2917V12.6667H27.7083V29.2917H30.875Z" fill="black"/>
+                <path d="M29.1333 13.4583C29.7667 12.825 29.7667 11.875 29.1333 11.2417C28.5 10.6083 27.55 10.6083 26.9167 11.2417L29.1333 13.4583ZM10.2917 27.8667C9.65833 28.5 9.65833 29.45 10.2917 30.0833C10.925 30.7167 11.875 30.7167 12.5083 30.0833L10.2917 27.8667ZM26.9167 11.2417L10.2917 27.8667L12.5083 30.0833L29.1333 13.4583L26.9167 11.2417Z" fill="black"/>
+                </svg></span>
+              <h5>Quiz</h5>
+              <img src="assets/img/Quiz.png" alt="Quiz">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-3">
+            <div class="offer-card offer-card-green">
+              <span class="arrow-icon"><svg width="35" height="35" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.925 9.18335C9.975 9.18335 9.34167 9.81668 9.34167 10.7667C9.34167 11.7167 9.975 12.35 10.925 12.35V9.18335ZM27.7083 29.2917C27.7083 30.2417 28.3417 30.875 29.2917 30.875C30.2417 30.875 30.875 30.2417 30.875 29.2917H27.7083ZM27.55 9.18335H10.925V12.35H27.55V9.18335ZM30.875 12.6667C30.875 10.7667 29.2917 9.18335 27.3917 9.18335V12.35C27.55 12.35 27.7083 12.5083 27.7083 12.6667H30.875ZM30.875 29.2917V12.6667H27.7083V29.2917H30.875Z" fill="black"/>
+                <path d="M29.1333 13.4583C29.7667 12.825 29.7667 11.875 29.1333 11.2417C28.5 10.6083 27.55 10.6083 26.9167 11.2417L29.1333 13.4583ZM10.2917 27.8667C9.65833 28.5 9.65833 29.45 10.2917 30.0833C10.925 30.7167 11.875 30.7167 12.5083 30.0833L10.2917 27.8667ZM26.9167 11.2417L10.2917 27.8667L12.5083 30.0833L29.1333 13.4583L26.9167 11.2417Z" fill="black"/>
+                </svg></span>
+              <h5>Science Project</h5>
+              <img src="assets/img/science-project.png" alt="Science Project">
+            </div>
+            <div class="offer-card-small-green">
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-3">
+            <div class="offer-card offer-card-yellow">
+              <span class="arrow-icon"><svg width="35" height="35" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.925 9.18335C9.975 9.18335 9.34167 9.81668 9.34167 10.7667C9.34167 11.7167 9.975 12.35 10.925 12.35V9.18335ZM27.7083 29.2917C27.7083 30.2417 28.3417 30.875 29.2917 30.875C30.2417 30.875 30.875 30.2417 30.875 29.2917H27.7083ZM27.55 9.18335H10.925V12.35H27.55V9.18335ZM30.875 12.6667C30.875 10.7667 29.2917 9.18335 27.3917 9.18335V12.35C27.55 12.35 27.7083 12.5083 27.7083 12.6667H30.875ZM30.875 29.2917V12.6667H27.7083V29.2917H30.875Z" fill="black"/>
+                <path d="M29.1333 13.4583C29.7667 12.825 29.7667 11.875 29.1333 11.2417C28.5 10.6083 27.55 10.6083 26.9167 11.2417L29.1333 13.4583ZM10.2917 27.8667C9.65833 28.5 9.65833 29.45 10.2917 30.0833C10.925 30.7167 11.875 30.7167 12.5083 30.0833L10.2917 27.8667ZM26.9167 11.2417L10.2917 27.8667L12.5083 30.0833L29.1333 13.4583L26.9167 11.2417Z" fill="black"/>
+                </svg></span>
+              <h5>Courses</h5>
+              <img src="assets/img/courses.png" alt="Courses">
+            </div>
+            <div class="offer-card-small-yellow">
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="offer-card">
+              <span class="arrow-icon"><svg width="35" height="35" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.925 9.18335C9.975 9.18335 9.34167 9.81668 9.34167 10.7667C9.34167 11.7167 9.975 12.35 10.925 12.35V9.18335ZM27.7083 29.2917C27.7083 30.2417 28.3417 30.875 29.2917 30.875C30.2417 30.875 30.875 30.2417 30.875 29.2917H27.7083ZM27.55 9.18335H10.925V12.35H27.55V9.18335ZM30.875 12.6667C30.875 10.7667 29.2917 9.18335 27.3917 9.18335V12.35C27.55 12.35 27.7083 12.5083 27.7083 12.6667H30.875ZM30.875 29.2917V12.6667H27.7083V29.2917H30.875Z" fill="black"/>
+                <path d="M29.1333 13.4583C29.7667 12.825 29.7667 11.875 29.1333 11.2417C28.5 10.6083 27.55 10.6083 26.9167 11.2417L29.1333 13.4583ZM10.2917 27.8667C9.65833 28.5 9.65833 29.45 10.2917 30.0833C10.925 30.7167 11.875 30.7167 12.5083 30.0833L10.2917 27.8667ZM26.9167 11.2417L10.2917 27.8667L12.5083 30.0833L29.1333 13.4583L26.9167 11.2417Z" fill="black"/>
+                </svg></span>
+              <h5>Assessments</h5>
+              <img src="assets/img/assessment.png" alt="Assessments">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Contact Section -->
+
+<div class="container contact-section">
+    <div class="row">
+      <div class="col-md-6 contact-header">
+        <h1>Get in Touch</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+      </div>
+      <div class="col-md-6 social-icons">
+        <span>Follow us on</span><br>
+        <a href="#"><img src="assets/img/facebook.svg" width="40px" alt=""></a>
+        <a href="#"><img src="assets/img/linkedin.svg" width="40px" alt=""></a>
+      </div>
+    </div>
+
+    <div class="row mt-4 contact-bg">
+      <div class="d-flex col-lg-6 mb-4 align-items-center justify-content-center d-flex-center form-section">
+        <div class="contact-form">
+          <form>
+            <input type="text" class="form-control" placeholder="Name" required>
+            <input type="email" class="form-control" placeholder="Email" required>
+            <input type="tel" class="form-control" placeholder="Phone" required>
+            <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+            <button type="submit" class="btn-send orange-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-lg-6 d-flex align-items-center justify-content-center">
+        <div>
+          <img src="assets/img/contact.png" alt="Contact Illustration" class="contact-image">
+          <p class="contact-info mt-3">
+            <b>Akshya Nagar 1st Block 1st Cross, Rammurthy Nagar,<br>
+            Bangalore-560016<br>
+            +91 9000000000
+            </b>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

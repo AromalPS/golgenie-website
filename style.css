@@ -1,0 +1,383 @@
+/* General Styles */
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*------------------------------------------------- Header Styling -----------------------------------------------------*/
+
+.header {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.header h1{
+    font-weight: 800;
+}
+
+.header h1 span{
+    color: #32B5D1;
+}
+
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact img {
+    max-width: 100%;
+    height: auto;
+}
+
+.orange-btn {
+    background: #FE7773;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 13px;
+    color: white;
+}
+
+.orange-btn:hover{
+    background: #fd362f;
+    color: #fff;
+}
+
+.custom-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('assets/img/arrow-icon.svg') no-repeat right 10px center;
+    background-size: 15px 15px; /* Adjust the size of the arrow icon */
+    padding-right: 40px; /* Adds space for the custom arrow */
+}
+
+/* Reduce the width of the select box */
+.custom-select {
+    width: 50%; /* Adjust this percentage or use a fixed width, like 200px */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+/* Optional: Add hover effect for better UX */
+.custom-select:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Slightly deeper shadow on hover */
+}
+
+/*--------------------------------------------------- Navbar Styling --------------------------------------------------*/
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #333 !important; /* Default link color with Bootstrap override */
+    transition: color 0.3s ease; /* Smooth transition */
+}
+
+/* Change color on hover */
+.navbar .nav-link:hover {
+    color: #FF5C5C !important; /* Hover color */
+}
+
+/* Increase the gap between Explore and Daily Challenge */
+.navbar-nav .nav-item:not(:last-child) {
+    margin-right: 20px; /* Adjust this value as needed */
+}
+
+.navbar-nav .btn {
+    padding: 10px 25px;
+    color: #fff;
+    background: linear-gradient(111.7deg, #FE7773 9.82%, #EA3238 62.25%);
+    border-radius: 13px;
+}
+
+/*--------------------------------------------- Feature Section ----------------------------------------------------*/
+
+/* Image/video section with overlay */
+
+.video-section img {
+    opacity: .8;
+    border-radius: 48px !important;
+}
+
+.video-section img:hover {
+    transition: 1s;
+    opacity: .9;
+}
+
+.video-section {
+    position: relative;
+    border-radius: 48px;
+    background-color: #000000;
+}
+
+.video-overlay {
+    position: absolute;
+    bottom: 20px; /* Adjust vertical positioning */
+    left: 30px;   /* Adjust horizontal positioning */
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.video-overlay:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+}
+
+.video-text-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 110px; /* Adjust text distance from button */
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.fas.fa-play-circle {
+    font-size: 1.5rem; /* Size of the play icon */
+    color: #6c757d;    /* Adjust the color of the play button */
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .video-text-overlay {
+        font-size: 1rem; /* Adjust text size for mobile */
+        left: 70px; /* Adjust position for smaller screens */
+    }
+
+    .video-overlay {
+        width: 50px; /* Smaller play button */
+        height: 50px;
+    }
+    
+    .fas.fa-play-circle {
+        font-size: 1.2rem; /* Smaller play icon */
+    }
+}
+
+.background-element {
+    position: absolute;
+     /* Behind the content */
+}
+
+.dots {
+    top: 120vh;
+    left: -100px;
+    width: 400px; /* Adjust based on your design */
+    height: 400px; /* Adjust based on your design */
+    opacity: 1; /* Adjust for visibility */
+}
+
+.wavy-lines {
+    top: 120vh;
+    right: -150px;
+    width: 400px; /* Adjust based on your design */
+    height: 400px; /* Adjust based on your design */
+    opacity: 1; /* Adjust for visibility */
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .dots {
+        opacity: 0;
+    }
+    
+    .wavy-lines {
+        opacity: 0;
+    }
+}
+
+
+.feature {
+    background-color: #fff;
+}
+
+.feature h3, .offer-section h3 {
+    margin: 0;
+}
+
+.feature h2, .offer-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.feature p {
+    font-size: 18px;
+    color: #3C3C3C;
+}
+
+/* What We Offer Section */
+
+.offer-section {
+    margin-top: 150px;
+}
+
+.offer-section h1 {
+    font-weight: 800;
+}
+
+.dots-offer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+  .offer-card {
+    position: relative;
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    padding: 20px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+  }
+
+  .offer-card-yellow {
+    background: linear-gradient(206.9deg, #FFF2DD 12.24%, #FDD99F 89.61%);
+  }
+
+  .offer-card-small-yellow {
+    position: absolute;
+    bottom: -20px;
+    left: -15px;
+    width: 200px;
+    height: 200px;
+    z-index: -2;
+    border-radius: 20px;
+    background: linear-gradient(206.9deg, #FFF2DD 12.24%, #FDD99F 89.61%);
+    opacity: 0.5;
+  }
+
+  .offer-card-green {
+    background: linear-gradient(206.93deg, #C6FEE9 18%, #8AD3B8 95.26%);
+  }
+
+  .offer-card-small-green {
+    position: absolute;
+    top: -20px;
+    right: -15px;
+    width: 200px;
+    height: 200px;
+    z-index: -2;
+    border-radius: 20px;
+    background: linear-gradient(206.93deg, #C6FEE9 18%, #8AD3B8 95.26%);
+    opacity: 0.5;
+  }
+
+  .offer-card .arrow-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .offer-card h5 {
+    position: absolute;
+    top: 20px;
+    z-index: 1;
+  }
+
+  .offer-card img {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    max-width: 250px;
+    border-radius: 10px;
+  }
+
+  /* Adjust the height of the first column for vertical alignment */
+  .d-flex-center {
+    min-height: 100%;
+  }
+
+
+
+/* Contact Section */
+
+.contact-section {
+    padding-top: 150px;
+    padding-bottom: 50px;
+  }
+
+  .contact-header h1 {
+    font-weight: 800;
+  }
+
+  .contact-bg {
+    background: linear-gradient(225.11deg, #E6F3FF 9.63%, #FFF2DC 98.1%);
+    padding: 60px 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  }
+
+  .contact-section .form-control {
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 25px;
+    width: 30vw;
+  }
+
+  .btn-send {
+    background-color: #ff6b6b;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+  }
+
+  .contact-info {
+    font-size: 14px;
+    color: #555;
+  }
+
+  .contact-info p {
+    margin-bottom: 5px;
+  }
+
+  .social-icons {
+    text-align: right;
+    margin-top: 10px;
+  }
+
+  .social-icons a {
+    font-size: 20px;
+    margin-left: 10px;
+    color: #000;
+    text-decoration: none;
+  }
+
+  /* Adjust image */
+  .contact-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* For smaller screens, stack form and image */
+  @media (max-width: 768px) {
+    .contact-section .form-control{
+        width: 80vw;
+    }
+
+    .contact-form {
+      text-align: center;
+    }
+
+    .social-icons {
+      text-align: center;
+    }
+  }
+
