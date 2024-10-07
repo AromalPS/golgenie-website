@@ -190,11 +190,11 @@ body {
 /* Responsive adjustments */
 @media (max-width: 576px) {
     .dots {
-        opacity: 0;
+        visibility: hidden;
     }
     
     .wavy-lines {
-        opacity: 0;
+        visibility: hidden;
     }
 }
 
@@ -233,6 +233,8 @@ body {
     bottom: 0;
     left: 0;
 }
+
+
 
   .offer-card {
     position: relative;
@@ -368,6 +370,10 @@ body {
 
   /* For smaller screens, stack form and image */
   @media (max-width: 768px) {
+    .dots-offer{
+      visibility: hidden;
+    }
+
     .contact-section .form-control{
         width: 80vw;
     }
